@@ -1,9 +1,13 @@
-@import url('http://fonts.googleapis.com/css?family=Alata&subset=latin,latin-ext')
+@import url('http://fonts.googleapis.com/css?family=Alata&subset=latin,latin-ext');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth; 
+  }
 
 body {
     background-color: #FFFFFF;
@@ -113,7 +117,30 @@ nav a:hover {
     margin-bottom: 50px;
 }
 
-.section-welcome h1 {
+.section-welcome  {
     margin-bottom: 60px;
-    font-size: 60px;
+    font-size: 40px;
+    color: greenyellow; 
+    /* nie działa mi tutaj kolor? */
+    font-weight: 100;
+}
+
+.section-welcome2 {
+    position: relative;
+    margin: 20px auto;
+}
+
+.section-best {
+    position: relative;
+    margin: 0px auto;
+    background-image: url(/dodatki/bg1.jpg);
+    background-size: cover;
+}
+
+.section-best-img {
+    width: 300%;
+    }
+
+.section-best2 {
+/*  */
 }
