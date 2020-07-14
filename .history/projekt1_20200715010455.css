@@ -203,20 +203,3 @@ button {
     font-family: 'Alata', sans-serif;
     padding: 0 20px;
 }
-
-footer {
-    border-top: 1px solid #d6caf8;
-    top: 40px;
-    width: 100%;
-    padding: 20px;
-    position: relative;
-}
-
-@media screen and (max-width: 1200px) {
-    .section-welcome h1 {
-    clear: both;
-    font-size: 40px;
-    width: 100%;
-    text-align: center;
-    }  
-}

@@ -213,10 +213,8 @@ footer {
 }
 
 @media screen and (max-width: 1200px) {
-    .section-welcome h1 {
     clear: both;
     font-size: 40px;
     width: 100%;
     text-align: center;
-    }  
 }
