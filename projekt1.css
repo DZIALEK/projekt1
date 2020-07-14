@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html{
     scroll-behavior: smooth; 
   }
@@ -66,7 +67,7 @@ div {
     font-size: 100px;
 }
 
-.top h1 ~p {
+.top h1~p {
     position: absolute;
     left: 50%;
     top: 45%;
@@ -75,7 +76,7 @@ div {
     font-size: 30px;
 }
 
-.top h1 ~a {
+.top h1~a {
     position: absolute;
     left: 50%;
     top: 55%;
@@ -117,7 +118,7 @@ nav a:hover {
     margin-bottom: 50px;
 }
 
-.section-welcome  {
+.section-welcome2  {
     margin-bottom: 60px;
     font-size: 40px;
     color: greenyellow; 
