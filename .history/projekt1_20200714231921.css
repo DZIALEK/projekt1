@@ -1,0 +1,147 @@
+@import url('http://fonts.googleapis.com/css?family=Alata&subset=latin,latin-ext');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth; 
+  }
+
+body {
+    background-color: #FFFFFF;
+    color: #62406F; text-shadow: #EEE8FF 0.1em 0.1em 0.2em;  
+    /* CDCCCC */
+    font-family: 'Alata', sans-serif;
+    font-size: 28px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+div {
+    width: 100%;
+    height: 100%;
+}
+
+#video_header {
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
+    bottom: 0;
+    right: 0;
+}
+
+.logo {
+    position: fixed;
+    top: 10px;
+    left: 85%;
+    width: 100%;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.top h1 {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+}
+
+.top h1~p {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    margin-top: 20px;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
+.top h1~a {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 2px solid #d6caf8;
+    padding: 10px 15px;
+    font-size: 40px;
+}
+
+nav {
+    box-shadow: 1px 1px 1px 1px #352564;
+}
+
+nav ul {
+    list-style-type: none;
+    width: 100%;
+}
+
+nav li {
+    position: relative;
+    text-align: center;
+}
+
+nav a {
+    transition: 0.5s;
+}
+
+nav a:hover {
+    color: #c386cf;
+    text-shadow: 0 0 0.1em #271B2B, 0 0 0.1em #271B2B, 0 0 0.1em #271B2B;
+    /* text-shadow: #271B2B 0.1em 0.1em 0.1em; */
+    /* #EEE8FF  */
+}
+
+.section-welcome {
+    position: relative;
+    top: 50px;
+    margin-bottom: 50px;
+}
+
+.section-welcome2  {
+    margin-bottom: 60px;
+    font-size: 40px;
+    color: greenyellow; 
+    /* nie działa mi tutaj kolor? */
+    font-weight: 100;
+}
+
+.section-welcome2 {
+    position: relative;
+    margin: 20px auto;
+}
+
+.section-best {
+    position: relative;
+    margin: 0px auto;
+    background-image: url(/dodatki/bg1.jpg);
+    background-size: cover;
+}
+
+.section-best-img {
+    width: 300%;
+    }
+
+.section-best2 {
+/*  */
+}
