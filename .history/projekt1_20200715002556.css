@@ -138,53 +138,10 @@ nav a:hover {
 }
 
 .section-best-img {
-    width: 100%;
-}
+    width: 10%;
 
-
-.section-best h2 {
-    color: hotpink;
-}
-
-.section-best p {
-    padding-bottom: 40px;
 }
 
 .section-best2 {
-    position: relative;
-    margin: 0px auto;
-    background-image: url(/dodatki/bg1.jpg);
-    background-size: cover;
+/*  */
 }
-
-.section-best2-img {
-    width: 100%;
-}
-
-
-.section-best2 h2 {
-    color: hotpink;
-}
-
-.section-best2 p {
-    padding-bottom: 40px;
-}
-
-.social-media i {
-    color: #62406F;
-    text-align: center;
-    margin-top: 20px;
-    font-size: 60px;
-    transition: 2s;
-    letter-spacing: 25px;
-}
-
-.social-media i:hover {
-    /* color: #ff792b; */
-    opacity: 0.8;
-    text-shadow: #b0b5fc 0.2em 0.2em 0.2em;
-    transform: scale(1.1,1.1);
-    transition-duration: 250ms;
-    transition-timing-function: ease-out;
-}
-

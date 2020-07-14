@@ -171,7 +171,7 @@ nav a:hover {
 }
 
 .social-media i {
-    color: #62406F;
+    color: rgb(177, 47, 47);
     text-align: center;
     margin-top: 20px;
     font-size: 60px;
@@ -180,11 +180,5 @@ nav a:hover {
 }
 
 .social-media i:hover {
-    /* color: #ff792b; */
-    opacity: 0.8;
-    text-shadow: #b0b5fc 0.2em 0.2em 0.2em;
-    transform: scale(1.1,1.1);
-    transition-duration: 250ms;
-    transition-timing-function: ease-out;
+    color: #62406F;
 }
-
