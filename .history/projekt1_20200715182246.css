@@ -54,37 +54,30 @@ div {
 
 .logo {
     position: fixed;
-    padding: 10px 0;
+    top: 10px;
+    left: 85%;
     width: 100%;
-    z-index: 1000;
-    height: 80px;
-    background-color: #FFFFFF;
-    /* display: flex; */
-    /* align-items: center; */
 }
 
 .logo img {
     width: 120px;
 }
-.top{
-    animation: logo-opacity 3s 3s ease-in-out forwards;
-    display: flex;
-    justify-content: center;
-}
+
 .top h1 {
     position: absolute;
-    top: 200px;
-    font-size: 140px;
-    animation: sizing 2s 1s ease-in-out forwards;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
 }
 
 .top h1~p {
     position: absolute;
     left: 50%;
-    top: 65%;
+    top: 45%;
     margin-top: 20px;
     transform: translate(-50%, -50%);
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .top h1~a {
@@ -99,11 +92,7 @@ div {
 }
 
 nav {
-    /* box-shadow: 1px 1px 1px 1px #352564; */
-    /* display:inline; */
-    font-size: 32px;
-    float:right;
-    margin-right: 20px;
+    box-shadow: 1px 1px 1px 1px #352564;
 }
 
 nav ul {
@@ -112,11 +101,8 @@ nav ul {
 }
 
 nav li {
-    padding: 10px;
     position: relative;
     text-align: center;
-    display: inline;
-	white-space: nowrap;
 }
 
 nav a {
@@ -237,24 +223,4 @@ footer {
     width: 100%;
     text-align: center;
     }  
-}
-
-
-/* ANIMACJA */
-@keyframes logo-opacity {
-    from {
-        opacity: 1;
-        }
-        to{
-            opacity:0;
-
-        }
-}
-@keyframes sizing{
-    from{
-        font-size:140px;
-    }
-    to{
-        font-size:240px;
-    }
 }
